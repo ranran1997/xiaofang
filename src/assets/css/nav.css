@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+.mao
+{
+    position: absolute;
+    background: #ffffff;
+    display: block;
+    height: 20px;
+    width: 20px;
+    top:-10px;
+    right:0px;
+    border-radius: 50%;
+    padding:1px 2px 1px 2px;
+    text-align: center;
+}
+.cart-content-top
+{
+    height: 67px;
+    width: 100%;
+    background: #d2d2d2;
+    background: url("../login/购物车(2)拷贝.png");
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.gou-cart
+{
+    float:right;
+    cursor: pointer;
+}
+.cart-content-bottom
+{
+    background-color: #fff;
+    width: 100%;
+}
+.cart-item
+{
+    width: 100%;
+    overflow:hidden;
+    padding-bottom:10px;
+    border-bottom:1px solid #dbdbdb;
+    background: #ffffff;
+    margin-bottom: 8px;
+}
+.cart-item-left
+{
+    width: 83px;
+    height: 106px;
+    float:left;
+    padding-left: 5px;
+}
+.cart-item-left img
+{
+    margin-top: 10px;
+    border: 1px solid #dcdcdc;
+}
+.cart-item-right
+{
+    width:200px;
+    height: 106px;
+    padding-right: 10px;
+    float: right;
+}
+.cart-text
+{
+    line-height: 20px;
+    height:40px;
+    overflow: hidden;
+    margin-top:8px;
+    font-size: 14px;
+}
+.cart-price
+{
+    color: #e45944;
+    font-size: 16px;
+}
+.span-num
+{
+    margin-left:5px;
+    display: inline-block;
+    color: #333333;
+    font-size: 14px;
+}
+.span-del
+{
+    float: right;
+    display: inline-block;
+    color: #e45944;
+    cursor: pointer;
+}
+.cart-bottom
+{
+    width: 100%;
+    height: 64px;
+    margin-bottom: 8px;
+}
+.cart-bottom-lef
+{
+    width: 120px;
+    padding-left: 5px;
+    float: left;
+    height: 64px;
+}
+.cart-bottom-righ
+{
+    float: right;
+}
+.cart-bottom-righ img
+{
+    cursor: pointer;
+}
+.cart-content
+{
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+     height: 1000px;
+    overflow-y: auto;
+  
+/*    background: #e5e5e5;*/
+}
+    .cart {
+        position: fixed;
+        right: 0px;
+        width: 8px;
+        height: 1000px;
+        background: #757575;
+        top: -50px;
+        background-image: url("../../assets/login/购物车(2).png");
+    }
+    
+    .cart-img {
+        position: fixed;
+        top: 450px;
+        right: 0px;
+        cursor: pointer;
+    }
